@@ -5,7 +5,7 @@ import NavBar from './Components/NavBar/NavBar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col max-h-screen">
       <NavBar />
       <div className="block md:hidden">
         <VerticalScroller />
