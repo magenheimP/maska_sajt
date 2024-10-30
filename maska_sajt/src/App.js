@@ -3,18 +3,16 @@ import VerticalScroller from './VerticalScroller';
 import HorizontalScroller from './HorizontalScroller';
 import NavBar from './Components/NavBar/NavBar';
 
-// asd
-
 function App() {
   return (
     <div className="App">
       <NavBar />
-      {/* <div className="block md:hidden">
+      <div className="block md:hidden">
         <VerticalScroller />
-      </div> */}
-      {/* <div className="hidden md:block">
+      </div>
+      <div className="hidden md:block">
         <HorizontalScroller />
-      </div> */}
+      </div>
     </div>
   );
 }

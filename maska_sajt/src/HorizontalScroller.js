@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 const images = [
-    // "./horizontal/_DSC1202.jpg",
-    "./horizontal/DSC_4127.jpg"
+
+
 ];
 
 const HorizontalScroller = () => {
