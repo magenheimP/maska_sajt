@@ -1,8 +1,15 @@
 import { useState, useEffect } from "react";
 
-const Scroller = ({ images }) => {
+const Scroller = ({ images, shouldShowLogo }) => {
     
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsVisible(true);
+        }, 1500);
+    }, []);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -14,8 +21,13 @@ const Scroller = ({ images }) => {
         return () => clearInterval(interval);
     }, []);
 
+    const verticalLogo = <img src="./logo/beli.png" alt="logo" className={`block md:hidden w-[100%] z-20 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}/>
+    const horizontalLogo = <img src="./logo/beli.png" alt="logo" className={`hidden md:block w-[33%] z-20 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}/>
+
     return ( 
         <div className="relative w-full h-screen overflow-hidden flex items-center justify-center">
+            {shouldShowLogo && verticalLogo}
+            {shouldShowLogo && horizontalLogo}
             <div className="absolute inset-0 bg-black opacity-40 z-10"></div>
             {images.map((image, index) => (
                 <img
