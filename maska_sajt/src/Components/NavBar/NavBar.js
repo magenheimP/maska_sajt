@@ -4,7 +4,7 @@
 
  const NavBar = () => {
     return(
-        <div>
+        <div className="z-50">
             
             <DesktopNavigation/>
         
