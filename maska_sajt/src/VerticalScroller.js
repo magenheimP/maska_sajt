@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 
 const images = ["./vertical/1_vertical_low_res.jpg",
     "./vertical/2_vertical_low_res.jpg"
-
 ];
 
 const VerticalScroller = () => {
