@@ -2,6 +2,10 @@ import { useState, useEffect } from "react";
 
 const Scroller = ({ images, shouldShowLogo }) => {
     
+const images = ["./vertical/1_vertical_low_res.jpg",
+    "./vertical/2_vertical_low_res.jpg"
+];
+
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [isVisible, setIsVisible] = useState(false);
 
