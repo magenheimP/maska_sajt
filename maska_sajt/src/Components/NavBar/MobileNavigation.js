@@ -17,13 +17,13 @@
 
     const Hamburger = <MdOutlineMenu className="HamburgerMenu"
     size="30px" 
-    color="black"
+    color="white"
     onClick={() => setClick(!click) }
     />
 
 
     const Close = <MdClose className="HamburgerMenu"
-    size="30px" color="black"
+    size="30px" color="white"
     onClick={() => setClick(!click)}
    
    />
