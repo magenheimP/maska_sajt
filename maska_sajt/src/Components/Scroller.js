@@ -2,9 +2,6 @@ import { useState, useEffect } from "react";
 
 const Scroller = ({ images, shouldShowLogo }) => {
     
-const images = ["./vertical/1_vertical_low_res.jpg",
-    "./vertical/2_vertical_low_res.jpg"
-];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [isVisible, setIsVisible] = useState(false);
@@ -25,8 +22,8 @@ const images = ["./vertical/1_vertical_low_res.jpg",
         return () => clearInterval(interval);
     }, []);
 
-    const verticalLogo = <img src="./logo/beli.png" alt="logo" className={`block md:hidden w-[100%] z-20 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}/>
-    const horizontalLogo = <img src="./logo/beli.png" alt="logo" className={`hidden md:block w-[33%] z-20 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}/>
+    const verticalLogo = <img src="./resources/logo/beli.png" alt="logo" className={`block md:hidden w-[100%] z-20 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}/>
+    const horizontalLogo = <img src="./resources/logo/beli.png" alt="logo" className={`hidden md:block w-[33%] z-20 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}/>
 
     return ( 
         <div className="relative w-full h-screen overflow-hidden flex items-center justify-center">

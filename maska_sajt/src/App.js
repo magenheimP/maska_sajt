@@ -4,13 +4,13 @@ import Scroller from './Components/Scroller';
 
 function App() {
   const horizontalImages = [
-    "./horizontal/DSC_4127.jpg",
-    "./horizontal/2_horizontal_low_rez.jpg"
+    "./resources/horizontal/DSC_4127.jpg",
+    "./resources/horizontal/2_horizontal_low_rez.jpg"
   ];
 
   const verticalImages = [
-    "./vertical/1_vertical_low_res.jpg",
-    "./vertical/2_vertical_low_res.jpg"
+    "./resources/vertical/1_vertical_low_res.jpg",
+    "./resources/vertical/2_vertical_low_res.jpg"
   ];
 
   return (
