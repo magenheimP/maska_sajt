@@ -11,7 +11,7 @@ nav{
     justify-content: space-evenly;
     background: black;
     opacity: 85%;
-    padding: 30px 50px 30px 50px;
+    padding: 10px 50px 10px 50px;
 }
 
 .NavLinks{
@@ -64,12 +64,12 @@ nav ul li a:hover{
         flex-direction: column;
         justify-content: space-evenly;
         position: absolute;
-        border-top: 3px solid orange;
+        border-top: 1px solid rgb(244, 207, 140);
         top: 15vh;
         right: 0;
-        height: 50vh;
+        height: 70vh;
         width: 100%;
-        background:blue;
+        background:black;
     }
 }
 
