@@ -16,22 +16,6 @@
              </li>
 
              <li onClick={()=> isClicked && closeMenu()} >
-                 <Link to={'program'} className='text-[#f4cf8c]' >Program</Link>
-             </li>
-
-             <li onClick={()=> isClicked && closeMenu()} >
-                 <Link to={'galery'} className='text-[#f4cf8c]' >Galerija</Link>
-             </li>
-
-             <li onClick={()=> isClicked && closeMenu()} >
-                 <Link to={'organize'} className='text-[#f4cf8c]' >Organizujte Vašu proslavu</Link>
-             </li>
-
-             <li onClick={()=> isClicked && closeMenu()} >
-                <Link to={'special'} className='text-[#f4cf8c]'>Specijalna ponuda</Link>
-             </li>
-
-             <li onClick={()=> isClicked && closeMenu()} >
                  <Link to={'contact'} className='text-[#f4cf8c]'>Kontakt</Link>
              </li>
              

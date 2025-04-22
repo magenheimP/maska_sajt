@@ -64,10 +64,10 @@ nav ul li a:hover{
         flex-direction: column;
         justify-content: space-evenly;
         position: absolute;
-        border-top: 1px solid rgb(244, 207, 140);
+        border-top: 1px solid #f4cf8c;
         top: 15vh;
         right: 0;
-        height: 70vh;
+        height: 85vh;
         width: 100%;
         background:black;
     }

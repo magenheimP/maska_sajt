@@ -32,7 +32,6 @@
    const closeMenu = () => setClick(false)
      return(
         <nav className="MobileNavigation">
-            <h2 className="logo">Logo</h2>   {/* TODO zameniti sa <img> slika logo-a */}
             { click ? Close : Hamburger}
             {click && <NavLinks isClicked={true} closeMenu={closeMenu}/>}
         </nav>                  

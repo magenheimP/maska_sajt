@@ -23,7 +23,7 @@ const Scroller = ({ images, shouldShowLogo }) => {
     }, []);
 
     const verticalLogo = <img src="./resources/logo/beli.png" alt="logo" className={`opacity-65 block md:hidden w-[100%] z-20 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}/>
-    const horizontalLogo = <img src="./resources/logo/beli.png" alt="logo" className={`opacity-65 hidden md:block w-[33%] z-20 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}/>
+    const horizontalLogo = <img src="./resources/logo/beli.png" alt="logo" className={` opacity-65 hidden md:block w-[33%] z-20 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}/>
 
     return ( 
         <div className="relative w-full h-screen overflow-hidden flex items-center justify-center">
